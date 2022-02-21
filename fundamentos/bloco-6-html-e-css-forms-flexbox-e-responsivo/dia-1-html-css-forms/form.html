@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" type="text/css" href="form.css" media="screen" />
+</head>
+<body>
+<div id="secao">
+    <form action="" method="get">
+    <header id="form">Formulário</header>
+    <label for="input-name">Nome: </label>
+    <input type="text" placeholder="Digite seu nome" name="name" id="input-name" required autofocus >
+    <br>
+    <label for="input-email">Email: </label>
+    <input type="email" placeholder="Digite seu Email" name="email" id="input-email" required>
+    <br>
+    <p>Destino Preferido: </p>
+    <label for="opcao-1"><input type="radio" id="opcao-1" name="destino-preferido" value="cidade" checked>Cidade</label>
+    <label for="opcao-2"><input type="radio" id="opcao-2" name="destino-preferido" value="campo">Campo</label>
+    <label for="opcao-3"><input type="radio" id="opcao-3" name="destino-preferido" value="praia">Praia</label>
+    <label for="opcao-4"><input type="radio" id="opcao-4" name="destino-preferido" value="montanhas">Montanhas</label>
+    <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+    <textarea name="texto" id="texto" cols="5" rows="5"></textarea>
+    <br>
+    <label for="input-date">Data: </label>
+    <input date="" placeholder="dd/mm/aaaa">
+    <br>
+    <label for="concordo-1">Concordo 1 </label>
+    <input type="checkbox" id="concordo-1" name="oportunidades">
+    <br>
+    <label for="concordo-2">Concordo 2 </label>
+    <input type="checkbox" id="concordo-2" name="oportunidades">
+    </div>
+<br>
+<button id="botao-1" type="submit">Enviar</button>
+<button id="botao-2">Apagar</button>
+</form>  
+</body>
+</html>
